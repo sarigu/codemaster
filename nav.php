@@ -66,7 +66,7 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Search for available courses"
+              placeholder="Search for courses"
             />
             <div class="input-group-append">
               <button
@@ -99,12 +99,12 @@
         <ul class="navbar-nav  ">
           <!--about-->
           <li class="nav-item mr-4 my-2 my-lg-0  ">
-            <a class="nav-link " href="#">About</a>
+            <a class="nav-link " href="about.php">About</a>
           </li>
           <!--courses-->
           <li class="nav-item dropdown mr-4 my-2 my-lg-0 ">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link "
               href="#"
               id="navbarDropdown"
               role="button"
@@ -120,7 +120,7 @@
             >
               <a class="dropdown-item" href="#">
                 <div class="flex flex-column">
-                  <p class="m-0">Topic 1</p>
+                  <p class="m-0 text-center">Topic 1</p>
                   <div class="progress">
                     <div
                       class="progress-bar"
@@ -138,7 +138,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">
                 <div class="flex flex-column">
-                  <p class="m-0">Topic 2</p>
+                  <p class="m-0 text-center">Topic 2</p>
                   <div class="progress">
                     <div
                       class="progress-bar"
@@ -156,7 +156,7 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">
                 <div class="flex flex-column">
-                  <p class="m-0">Topic 3</p>
+                  <p class="m-0 text-center">Topic 3</p>
                   <div class="progress">
                     <div
                       class="progress-bar "

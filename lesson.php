@@ -1,9 +1,4 @@
-<?php
-
-require_once('nav.php');
-
-?>
-
+<?php require_once('nav.php'); ?>
     <main>
       <!-- Container overview and video/script -->
       <div class="container-fluid">
@@ -197,7 +192,7 @@ require_once('nav.php');
               </div>
               <!--script-->
               <div class="col-md-12  offset-lg-2 col-lg-8 bg-darkblue-box bg-box-spacing">
-                <h3 class="neon-green">Script</h3>
+                <h1 class="neon-green">Script</h1>
                 <div id="script-txt" class="bg-white-box">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Consequatur qui labore at impedit quam sed incidunt error
@@ -224,8 +219,8 @@ require_once('nav.php');
         <div class="row justify-content-between">
            <!-- exercise container-->
           <div class="col-md-5 bg-darkblue-box bg-box-spacing">
-            <h4 class="white">Exercise:</h4>
-            <h4 class="neon-green">Normalization Form</h4>
+            <h1 class="white">Exercise:</h1>
+            <h1 class="neon-green">Normalization Form</h1>
             <div id="exercise-txt" class="bg-white-box">
               <p>
                 Normalisation is a technique that consists of a series of rules
@@ -304,7 +299,7 @@ require_once('nav.php');
         </div>
       </div>
     </main>
-    <footer></footer>
+    <?php require_once('footer.php'); ?>
     <script src="app.js"></script>
   </body>
 </html>
