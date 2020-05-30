@@ -32,22 +32,28 @@ main {
   font-size: 25px;
 }
 
-#logout-btn {
-  width: 90%;
-}
-
 .navbar a {
   color: #ffffff;
 }
 
 #logout-btn {
-  border: #00ffce 2px solid;
+  width: 90%;
+}
+
+.btn-outline-success {
   color: #00ffce;
-  background-color: transparent;
+  border-color: #00ffce;
+}
+
+.progress {
+  height: 7px;
+  border-radius: 0.5rem;
 }
 
 .progress-bar {
   background-color: #00ffce;
+
+  border-radius: 0.5rem;
 }
 
 .fa-bars {
