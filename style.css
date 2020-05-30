@@ -36,6 +36,10 @@ main {
   color: #ffffff;
 }
 
+.nav-link:hover {
+  opacity: 0.9;
+}
+
 #logout-btn {
   width: 90%;
 }
@@ -43,6 +47,11 @@ main {
 .btn-outline-success {
   color: #00ffce;
   border-color: #00ffce;
+}
+
+.btn-outline-success:hover {
+  background-color: #00ffce;
+  color: white;
 }
 
 .progress {
