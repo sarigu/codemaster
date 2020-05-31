@@ -63,8 +63,8 @@
           <div class="input-group ">
             <input
               type="text"
-              class="form-control"
-              placeholder="Search for courses"
+              class="form-control "
+              placeholder="Search for available courses"
             />
             <div class="input-group-append">
               <button
@@ -260,5 +260,4 @@
         </ul>
       </div>
     </nav>
-  </body>
-</html>
+
