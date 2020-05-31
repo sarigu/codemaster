@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!--font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -16,6 +13,7 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <!--own CSS-->
     <link rel="stylesheet" href="style.css" />
     <!--font awesome-->
@@ -42,7 +40,7 @@
   <body>
     <nav class="navbar navbar-expand-lg  bg-darkblue ">
       <!--logo-->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="userDashboard.php">
         <img src="images/logo.png" width="80%" alt="logo"
       /></a>
       <!--burgermenu-->

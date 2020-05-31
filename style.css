@@ -74,6 +74,42 @@ h1 {
   font-size: 30px;
 }
 
+/* ///////  USER DASHBOARD ////////// */
+
+.btnF1 {
+  font-size: 0.65rem;
+  color: darkgray;
+}
+
+.container1,
+.container2 {
+  background: #ffffff;
+  border: 0.3px solid #333333;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 10px 35px 18px rgba(207, 205, 207, 1);
+  -moz-box-shadow: 6px 10px 35px 18px rgba(207, 205, 207, 1);
+  box-shadow: 6px 10px 35px 18px rgba(207, 205, 207, 1);
+}
+
+.carousel-control-next-icon {
+  background-image: url("images/chevron.svg");
+  margin-right: -70%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("images/chevron2.svg");
+  margin-left: -70%;
+}
+
+.carousel .active:after {
+  content: ""; /* arrow up*/
+}
+
+.carousel-container {
+  padding: 0 4vw 0 4vw;
+}
+
 /* ///////  LESSONS TEMPLATE ////////// */
 
 /* //////// styling for containers/boxes //////// */
@@ -254,9 +290,22 @@ iframe {
 /* ///////  FOOTER ////////// */
 
 footer {
+  height: 60px;
   width: 100%;
-  height: 100px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
+  background-color: #484848;
+  font-size: 15px;
+}
+
+footer .icons a {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  color: darkgray;
+  text-decoration: none;
+}
+
+footer .icons a:hover {
+  color: #00ffce;
+  transition: all 0.7s ease-out;
 }
 
 /* /////// MEDIA QUERIES ////////// */

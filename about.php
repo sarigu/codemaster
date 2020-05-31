@@ -2,10 +2,9 @@
 <main>
     <section>
         <h1 class="mb-4">About</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum veritatis, animi dolorum mollitia, soluta officiis voluptatibus quisquam pariatur nostrum eveniet sint delectus maxime eum harum nulla sunt! Qui, ad laborum
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores illum dolores quas necessitatibus eum, alias aliquam unde deserunt velit rerum commodi ipsa tenetur mollitia corrupti ex molestiae deleniti culpa laudantium.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptas consequuntur assumenda vel possimus atque odio officia impedit laboriosam quibusdam. Molestias cum consequuntur excepturi. Minima nobis explicabo eaque voluptatem ex?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto commodi provident quia ullam eos repudiandae nobis velit nemo, deserunt fugiat, veniam sunt optio corrupti unde ipsa sit, modi culpa.</p>
+        <p>At CodeMaster, we’ve seen how hard it can be to find engaging and helpful teaching material related to database. We want to help you on your way to take your developing skills to the next level by offering you courses that further learning and application.</p>
+        <p>CodeMaster is an online learning community with hundreds of classes for people interested in database, on topics including normalization, SQL, connecting database and frontend and many more. On CodeMaster, our members come together to learn about database. We would be happy to see you on CodeMaster! </p>
+
     </section>
 </main>
     <?php require_once('footer.php'); ?>
