@@ -59,7 +59,7 @@
       <!--nav inside burgermenu and outside-->
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <!--search-->
-        <form class="form-inline  mx-auto my-4 my-lg-0 ">
+        <form class="form-inline  mx-auto my-3 my-lg-0 ">
           <div class="input-group ">
             <input
               type="text"
@@ -68,7 +68,7 @@
             />
             <div class="input-group-append">
               <button
-                class="btn btn-outline-success my-2 my-sm-0"
+                class="btn btn-outline-success "
                 id="srchBtn"
                 type="submit"
               >

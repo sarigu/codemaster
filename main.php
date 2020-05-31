@@ -68,7 +68,7 @@
             />
             <div class="input-group-append">
               <button
-                class="btn btn-outline-success my-2 my-sm-0"
+                class="btn btn-outline-success"
                 id="srchBtn"
                 type="submit"
               >
@@ -158,7 +158,7 @@
             <li>Lesson 1</li>
             <li>Lesson 2</li>
           </ol>
-        </div>
+        </div>   
       </div>
     </div>
     <div id="aboutSection" class="spacing">

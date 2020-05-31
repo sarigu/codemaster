@@ -11,16 +11,16 @@
         <!--single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30 p-1 ">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 1</h1>
+          <h1 class="text-center my-1">Topic 1</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
-                <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
+                <div class="progress bg-darkblue mr-1 ml-3  w-50 " id="progressWi">
                     <div class="progress-bar " role="progressbar" aria-valuenow="70"
                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
                       <span class="sr-only">70% Complete</span>
                     </div>
                 </div>
-                <div class="btnF1 ml-1 w-50">
+                <div class="btnF1 ml-1  w-50">
                     5/10 lessons left
                 </div> 
             </div>
@@ -32,7 +32,7 @@
         <!-- second single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 2</h1>
+          <h1 class="text-center my-1">Topic 2</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -53,7 +53,7 @@
         <!--third single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 3</h1>
+          <h1 class="text-center my-1">Topic 3</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -83,7 +83,7 @@
         <!--single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 4</h1>
+          <h1 class="text-center my-1">Topic 4</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -104,7 +104,7 @@
         <!-- second single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 5</h1>
+          <h1 class="text-center my-1">Topic 5</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -125,7 +125,7 @@
         <!--third single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 6</h1>
+          <h1 class="text-center my-1">Topic 6</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -157,10 +157,10 @@
   </a>
 </div>
 <!--mobile one?-->
-<div class="db dn-ns">
-        <div class="container2 dib w-75  p-1">
+<div class="db dn-ns text-center">
+        <div class="container2 dib w-75 p-1 ">
           <!--topic heading-->
-          <h1 class="text-center mt-1">Topic 1</h1>
+          <h1 class="text-center mt-1 mb-1 ">Topic 1</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">

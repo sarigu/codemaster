@@ -31,10 +31,6 @@ h1 {
   color: var(--accent-color);
 }
 
-.black {
-  color: black;
-}
-
 .white {
   color: white;
 }
@@ -66,23 +62,23 @@ h1 {
 }
 
 .btn-outline-success {
-  color: #00ffce;
-  border-color: #00ffce;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .btn-outline-success:hover {
-  background-color: #00ffce;
+  background-color: var(--accent-color);
   color: white;
 }
 
 .btn-success {
-  background-color: #00ffce;
-  color: #000a20;
+  background-color: var(--accent-color);
+  color: var(--background-color);
 }
 
 .btn-success:hover {
   color: white;
-  border-color: #00ffce;
+  border-color: var(--accent-color);
   background-color: transparent;
 }
 
@@ -92,8 +88,7 @@ h1 {
 }
 
 .progress-bar {
-  background-color: #00ffce;
-
+  background-color: var(--accent-color);
   border-radius: 0.5rem;
 }
 
@@ -262,7 +257,7 @@ h1 {
 }
 
 #coursesInnerDiv .accordion:after {
-  content: "\25B6"; /* Unicode character for "plus" sign (+) */
+  content: "\25B6";
   font-size: 13px;
   color: var(--accent-color);
   float: right;
@@ -270,7 +265,7 @@ h1 {
 }
 
 #coursesInnerDiv .active:after {
-  content: "\25BC"; /* Unicode character for "minus" sign (-) */
+  content: "\25BC";
 }
 
 #coursesInnerDiv {
@@ -523,18 +518,11 @@ footer .icons a {
 }
 
 footer .icons a:hover {
-  color: #00ffce;
+  color: var(--accent-color);
   transition: all 0.7s ease-out;
 }
 
 /* /////// MEDIA QUERIES ////////// */
-
-@media (max-width: 575.98px) {
-  .navbar-brand {
-    margin-right: 0;
-    width: 180px;
-  }
-}
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {
@@ -599,6 +587,25 @@ footer .icons a:hover {
   }
 }
 
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    margin-right: 0;
+    width: 180px;
+  }
+
+  #aboutGrid {
+    padding: 50px 25px 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+
+  #aboutSection > h1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  #aboutP {
+    margin-left: 25px;
+  }
 }
