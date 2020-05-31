@@ -2,7 +2,7 @@
     <main>
       <!-- Container overview and video/script -->
       <div class="container-fluid">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between spacing ">
           <div class=" col-md-4 col-lg-3  bg-darkblue-box">
             <!--Overview of lessons and topics-->
             <div id="overview">
@@ -216,7 +216,7 @@
 
       <!-- Container task and code editor-->
       <div class="container-fluid">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between spacing ">
            <!-- exercise container-->
           <div class="col-md-5 bg-darkblue-box bg-box-spacing">
             <h1 class="white">Exercise:</h1>
