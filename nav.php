@@ -62,6 +62,7 @@
         <form class="form-inline  mx-auto my-3 my-lg-0 ">
           <div class="input-group ">
             <input
+              id="searchBar"
               type="text"
               class="form-control "
               placeholder="Search for available courses"
@@ -97,7 +98,7 @@
         <ul class="navbar-nav  ">
           <!--about-->
           <li class="nav-item mr-4 my-2 my-lg-0  ">
-            <a class="nav-link " href="about.php">About</a>
+            <a class="nav-link " href="userDashboard.php#aboutSection">About</a>
           </li>
           <!--courses-->
           <li class="nav-item dropdown mr-4 my-2 my-lg-0 ">

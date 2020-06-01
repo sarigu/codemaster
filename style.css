@@ -25,6 +25,11 @@ h1 {
   font-weight: 800;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
 /* ///// COLORS //////*/
 
 .neon-green {
@@ -54,7 +59,16 @@ h1 {
 }
 
 .nav-link:hover {
-  opacity: 0.9;
+  color: var(--accent-color);
+}
+
+.nav-link:focus {
+  color: var(--accent-color) !important;
+}
+
+.dropdown-item:hover {
+  color: var(--accent-color);
+  background-color: transparent;
 }
 
 #logout-btn {
@@ -95,6 +109,10 @@ h1 {
 .fa-bars {
   color: white;
   font-size: 30px;
+}
+
+#searchBar {
+  width: 300px;
 }
 
 /* ///// MAIN LANDING PAGE//////*/
@@ -215,8 +233,6 @@ h1 {
 }
 
 .aboutElement > h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
   font-size: 25px;
 }
 
@@ -287,6 +303,14 @@ h1 {
   color: darkgray;
 }
 
+.btnF {
+  font-size: 0.9rem;
+}
+
+.f4 {
+  font-size: 1.2rem;
+}
+
 .container1,
 .container2 {
   background: #ffffff;
@@ -313,7 +337,7 @@ h1 {
 }
 
 .carousel-container {
-  padding: 0 7vw 0 7vw;
+  padding: 0 10vw 0 10vw;
 }
 
 .darkBtn:hover {
@@ -357,7 +381,8 @@ h1 {
   transition: 0.4s;
 }
 
-.topic-btn:hover {
+.topic-btn:hover,
+.topic-btn.active {
   color: var(--accent-color);
 }
 
@@ -505,7 +530,7 @@ iframe {
 /* ///////  FOOTER ////////// */
 
 footer {
-  height: 60px;
+  height: 70px;
   background-color: #484848;
   font-size: 14px;
 }
@@ -585,12 +610,20 @@ footer .icons a:hover {
   #coursesInnerDiv {
     width: 90vw;
   }
+
+  .carousel-container {
+    padding: 0 6vw 0 6vw;
+  }
 }
 
 @media (max-width: 575.98px) {
   .navbar-brand {
     margin-right: 0;
     width: 180px;
+  }
+
+  #searchBar {
+    width: 100px;
   }
 
   #aboutGrid {

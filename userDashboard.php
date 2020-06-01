@@ -11,7 +11,7 @@
         <!--single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30 p-1 ">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 1</h1>
+          <h1 class="text-center my-1 f4">Topic 1</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3  w-50 " id="progressWi">
@@ -32,7 +32,7 @@
         <!-- second single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 2</h1>
+          <h1 class="text-center my-1 f4">Topic 2</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -53,7 +53,7 @@
         <!--third single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 3</h1>
+          <h1 class="text-center my-1 f4">Topic 3</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -68,7 +68,7 @@
             </div>
              <!--button--> 
           <div class="text-center m-1">
-            <button type="button" class="btn darkBtn bg-darkblue neon-green dib">Continue</button>
+            <button type="button" class="btn darkBtn bg-darkblue neon-green dib btnF">Continue</button>
           </div>
         </div>
       </div>
@@ -79,11 +79,11 @@
     <div class="carousel-item" data-interval="false">
    
 <!--second whole container for three containers-->
-      <div class=" carousel-container d-flex flex-row justify-content-between mt-1 mr-6 ml-6 pr-5 pl-5 pt-4 pb-4">
+      <div class="carousel-container d-flex flex-row justify-content-between mt-1 mr-6 ml-6  pt-4 pb-4">
         <!--single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 4</h1>
+          <h1 class="text-center my-1 f4">Topic 4</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -104,7 +104,7 @@
         <!-- second single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 5</h1>
+          <h1 class="text-center my-1 f4">Topic 5</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -125,7 +125,7 @@
         <!--third single container-->
         <div class="container1 d-flex flex-column justify-content-between d-block w-30  p-1">
           <!--topic heading-->
-          <h1 class="text-center my-1">Topic 6</h1>
+          <h1 class="text-center my-1 f4">Topic 6</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -140,7 +140,7 @@
             </div>
              <!--button--> 
           <div class="text-center m-1">
-            <button type="button" class="btn darkBtn bg-darkblue neon-green dib">Continue</button>
+            <button type="button" class="btn darkBtn bg-darkblue neon-green dib btnF">Continue</button>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
 <div class="db dn-ns text-center">
         <div class="container2 dib w-75 p-1 ">
           <!--topic heading-->
-          <h1 class="text-center mt-1 mb-1 ">Topic 1</h1>
+          <h1 class="text-center mt-1 mb-1 f4">Topic 1</h1>
                 <!--progressbar and text on side-->
               <div class="d-flex flex-row align-items-center">
                 <div class="progress bg-darkblue mr-1 ml-3 w-50" id="progressWi">
@@ -179,6 +179,7 @@
           </div>
         </div>
       </div>
+
     <!--BOTTOM PART-->
     <div id="coursesSection" class="mt-5">
       <h1>See available courses</h1>
